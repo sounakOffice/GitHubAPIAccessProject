@@ -14,8 +14,10 @@ This folder contains the working exe version build of the project.
 
 This folder contains a detail architecture design as well as key objectives and multiple screenshots in one place with sample input to run the application as well.
 
+# Observation
 
-
+It has been observed that for security reason GitHub automatically revokes the generated Personal Access Token if it is mentioned anywhere in the code or document during commit.
+The token mentioned in sample input is no longer valid due to this. This application can run on any Github repository which attached to a valid personal access token of user.
 
 
 

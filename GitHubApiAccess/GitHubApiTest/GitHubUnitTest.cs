@@ -12,7 +12,7 @@ namespace GitHubApiTest
         {
             // Arrange
             GitHubApiAccess.Model.InputParameter inputValues = new GitHubApiAccess.Model.InputParameter { UserName = "sounakOffice"
-                , RepoName = "SampleRepo", UserToken = "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" };
+                , RepoName = "SampleRepo", UserToken = "validGiHubAccessToken" };
 
             bool expectedValue = true;
             bool actualValue = false;
